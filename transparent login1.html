@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="blarblarblar.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+	<title>Log in transparent form</title>
+	<style type="text/css">
+
+		.login_body{
+			background-image: url('myanmar.jfif');
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: fixed;
+		}
+		.box{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 90vh;
+		}
+		.login_container{
+			width: 350px;
+			display: flex;
+			flex-direction: column;
+			padding: 0 15px 0 15px;
+		}
+		span{
+			color: lightcyan;
+			font-size: small;
+			display: flex;
+			justify-content: center;
+			padding: 10px 0 10px 0;
+		}
+
+		.login_containerheader{
+			color: lightcyan;
+			font-size: 30px;
+			display: flex;
+			justify-content: center;
+			padding: 10px 0 10px 0;
+		}
+		.input-field{
+			display: flex;
+			flex-direction: column;
+		}
+		.input{
+			height: 45px;
+			width: 87%;
+			border: none;
+			outline: none;
+			border-radius: 30px;
+			color: lightcyan;
+			padding: 0 0 0 45px;
+			background: rgba(255, 255, 255, 0.1);
+		}
+		i{
+			position: relative;
+			color: white;
+		}
+		::-webkit-input-placeholder{
+			color: white;
+		}
+		.submit{
+			border: none;
+			border-radius: 30px;
+			font-size: 15px;
+			height: 45px;
+			outline: none;
+			width: 100%;
+			background: white;
+			cursor: pointer;
+			transition: .3s;
+		}
+		.submit:hover{
+			box-shadow: 1px 5px 7px 1px black;
+		}
+		
+		.bottom{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			font-size: small;
+			color: white;
+			margin-top: 10px;
+		}
+		.left{
+			display: flex;
+		}
+		label a{
+			color: white;
+			text-decoration: none;
+		}
+
+		ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: right;
+    }
+    li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      width: 100px;
+    }
+
+    li a:hover, .dropdown:hover .dropbtn {
+      background-color: blue;
+    }
+
+    li.dropdown {
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {background-color: #f1f1f1;}
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .nav{
+      width: 20px;
+      height: 20px;
+      background-image: url(reikiyy.JFIF);
+    }*/
+  </style>
+</head>
+<body class="login_body">
+  <ul>
+    <nav>
+    <li><a href="transparent login1.html">Log In</a></li>
+    <li><a href="about us.html">About Us</a></li>
+    <li class="dropdown">
+      <a href="index.html" class="dropbtn">Home</a>
+      <div class="dropdown-content">
+        <a href="kachin.html">Kachin</a>
+        <a href="Kayah.html">Kayah</a>
+        <a href="Kayin.html">Kayin</a>
+        <a href="Chin.html">Chin</a>
+        <a href="Burma.html">Burma</a>
+        <a href="Mon.html">Mon</a>
+        <a href="Rakhine.html">Rakhine</a>
+        <a href="Shan.html">Shan</a>
+    </div>
+  </li>
+  </li>
+</ul>
+
+		<div class="box">
+		<div class="login_container">
+			<div class="top-header">
+				<span>Have an account?</span>
+				<header>Login</header> 
+			</div>
+
+			<div class="input-field">
+				<input type="text" class="input" placeholder="Username" required>
+				<i class="bx bx-user"></i>
+			</div>
+			<div class="input-field">
+				<input type="password" class="input" placeholder="Password" required>
+				<i class="bx bx-user"></i>
+			</div>
+			<div class="input-field">
+				<input type="Submit" class="Submit" placeholder="Username" required>
+			</div>
+
+			<div class="bottom">
+				<div class="left">
+					<input type="checkbox" id="check">
+					<label for="check"> Remember Me </label>
+				</div>
+				<div class="right">
+					
+					<label><a href="#">Forgot Password?</a></label>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	 <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>TRIPLE BEAR GANG AGENCY</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        
+                <div class="footer-col">
+          <h4>Choose one to donate</h4>
+          <ul>
+            <li><a href="#">AYA Pay</a></li>
+            <li><a href="#">KBZ Pay</a></li>
+            <li><a href="#">Wave Pay</a></li>
+          </ul>
+        </div>
+
+                <div class="footer-col">
+          <h4>You want to donate to which ethnic group?</h4>
+          <ul>
+            <li><a href="#">Kachin</a></li>
+            <li><a href="#">Kayah</a></li>
+            <li><a href="#">Kayin</a></li>
+            <li><a href="#">Chin</a></li>
+            <li><a href="#">Burma</a></li>
+            <li><a href="#">Mon</a></li>
+            <li><a href="#">Rakhine</a></li>
+            <li><a href="#">Shan</a></li>
+          </ul>
+        </div>
+
+           <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+          <ul>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
